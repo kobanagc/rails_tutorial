@@ -1,3 +1,7 @@
+# config/boot.rb → config/application.rbの次に起動する環境がテスト環境（test）だった場合に
+# このファイルが読み込まれる。
+# ここでは、特定の環境に対する設定（ログの詳細レベル、キャッシュの有無、メール配信の設定など）が行われる。
+
 # The test environment is used exclusively to run your application's
 # test suite. You never need to work with it otherwise. Remember that
 # your test database is "scratch space" for the test suite and is wiped
