@@ -1,3 +1,7 @@
+# config/boot.rb → config/application.rbの次に起動する環境が本番環境（production）だった場合に
+# このファイルが読み込まれる。
+# ここでは、特定の環境に対する設定（ログの詳細レベル、キャッシュの有無、メール配信の設定など）が行われる。
+
 Rails.application.configure do
   # Settings specified here will take precedence over those in config/application.rb.
 
