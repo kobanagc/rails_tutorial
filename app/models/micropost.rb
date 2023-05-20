@@ -1,4 +1,8 @@
+puts "\n☆★☆★☆\nmodels/micropost.rb\n☆★☆★☆\n\n"
+
 class Micropost < ApplicationRecord
+  puts "\n☆★☆★☆\nmodels/micropost.rb\nclass Micropost < ApplicationRecord\n☆★☆★☆\n\n"
+
   belongs_to :user
   has_one_attached :image
   default_scope -> { order(created_at: :desc) }
@@ -9,6 +13,8 @@ class Micropost < ApplicationRecord
 
   # 表示用のリサイズ済み画像を返す
   def display_image
+    puts "\n☆★☆★☆\nmodels/micropost.rb\nclass Micropost < ApplicationRecord\ndisplay_image method\n☆★☆★☆\n\n"
+
     image.variant(resize_to_limit: [500, 500])
   end
 end

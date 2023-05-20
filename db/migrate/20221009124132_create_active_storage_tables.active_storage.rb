@@ -1,6 +1,12 @@
+puts "\n☆★☆★☆\ndb/migrate/20221009124132_create_active_storage_tables.active_storage.rb\n☆★☆★☆\n\n"
+
 # This migration comes from active_storage (originally 20170806125915)
 class CreateActiveStorageTables < ActiveRecord::Migration[5.2]
+  puts "\n☆★☆★☆\ndb/migrate/20221009124132_create_active_storage_tables.active_storage.rb\nclass CreateActiveStorageTables < ActiveRecord::Migration[5.2]\n☆★☆★☆\n\n"
+
   def change
+    puts "\n☆★☆★☆\ndb/migrate/20221009124132_create_active_storage_tables.active_storage.rb\nclass CreateActiveStorageTables < ActiveRecord::Migration[5.2]\nchange method\n☆★☆★☆\n\n"
+
     create_table :active_storage_blobs do |t|
       t.string   :key,        null: false
       t.string   :filename,   null: false

@@ -1,3 +1,5 @@
+puts "\n☆★☆★☆\nconfig/application.rb\n☆★☆★☆\n\n"
+
 require_relative 'boot'
 
 require 'rails/all'
@@ -7,7 +9,10 @@ require 'rails/all'
 Bundler.require(*Rails.groups)
 
 module RailsTutorial
+  puts "\n☆★☆★☆\nconfig/application.rb\nmodule RailsTutorial\n☆★☆★☆\n\n"
+
   class Application < Rails::Application
+    puts "\n☆★☆★☆\nconfig/application.rb\nmodule RailsTutorial\nclass Application < Rails::Application\n☆★☆★☆\n\n"
     # Initialize configuration defaults for originally generated Rails version.
     config.load_defaults 6.0
 

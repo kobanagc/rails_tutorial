@@ -1,3 +1,5 @@
+puts "\n☆★☆★☆\ndb/seeds.rb\n☆★☆★☆\n\n"
+
 User.create!( name: "Example User",
               email: "example@railstutorial.org",
               password: "foobar",
