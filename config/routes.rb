@@ -1,7 +1,12 @@
 # Railsモジュールのapplicationメソッドを呼び出して現在のアプリケーションを取得し、
 # そのアプリケーションのroutesメソッドを呼び出してルーティング情報を取得し、
 # そのルーティング情報のdrawメソッドを呼び出してルーティングの定義を設定している。
+
+puts "\n☆★☆★☆\nconfig/routes.rb\n☆★☆★☆\n\n"
+
 Rails.application.routes.draw do
+  puts "\n☆★☆★☆\nconfig/routes.rb\nRails.application.routes do\n☆★☆★☆\n\n"
+
   get 'password_resets/new'
   get 'password_resets/edit'
   root 'static_pages#home'

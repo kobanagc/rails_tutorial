@@ -1,3 +1,5 @@
+puts "\n☆★☆★☆\nconfig/spring.rb\n☆★☆★☆\n\n"
+
 Spring.watch(
   ".ruby-version",
   ".rbenv-vars",

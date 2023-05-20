@@ -1,3 +1,5 @@
+puts "\n☆★☆★☆\nconfig/environment.rb\n☆★☆★☆\n\n"
+
 # Load the Rails application.
 require_relative 'application'
 

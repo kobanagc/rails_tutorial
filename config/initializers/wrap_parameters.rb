@@ -1,5 +1,7 @@
 # Be sure to restart your server when you modify this file.
 
+puts "\n☆★☆★☆\nconfig/initializers/wrap_parameters.rb\n☆★☆★☆\n\n"
+
 # This file contains settings for ActionController::ParamsWrapper which
 # is enabled by default.
 
